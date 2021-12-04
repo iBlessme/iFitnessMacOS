@@ -11,6 +11,24 @@
 		2060980D275B68E000B818DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060980C275B68E000B818DC /* ContentView.swift */; };
 		2060980F275B68E300B818DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2060980E275B68E300B818DC /* Assets.xcassets */; };
 		20609812275B68E300B818DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20609811275B68E300B818DC /* Preview Assets.xcassets */; };
+		2060981A275B691300B818DC /* MainAdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609819275B691300B818DC /* MainAdminView.swift */; };
+		20609825275B6B0400B818DC /* WorkersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609824275B6B0400B818DC /* WorkersListView.swift */; };
+		20609828275B6B3500B818DC /* UserClubsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609827275B6B3500B818DC /* UserClubsView.swift */; };
+		2060982C275B6D8600B818DC /* UserClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060982B275B6D8600B818DC /* UserClub.swift */; };
+		2060982E275B6DAC00B818DC /* UserClubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060982D275B6DAC00B818DC /* UserClubModel.swift */; };
+		20609833275B98EB00B818DC /* UserClubAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609832275B98EB00B818DC /* UserClubAdd.swift */; };
+		20609839275BEF2400B818DC /* UserClubEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609838275BEF2400B818DC /* UserClubEdit.swift */; };
+		2060983B275BEF3800B818DC /* UserClubDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060983A275BEF3800B818DC /* UserClubDelete.swift */; };
+		2060983D275BEFF400B818DC /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060983C275BEFF400B818DC /* Worker.swift */; };
+		2060983F275BEFFC00B818DC /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060983E275BEFFC00B818DC /* Client.swift */; };
+		20609841275BF01B00B818DC /* WorkerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609840275BF01B00B818DC /* WorkerModel.swift */; };
+		20609843275BF02500B818DC /* ClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609842275BF02500B818DC /* ClientModel.swift */; };
+		20609845275BF0AC00B818DC /* Abonement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609844275BF0AC00B818DC /* Abonement.swift */; };
+		20609847275BF11300B818DC /* AbonementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609846275BF11300B818DC /* AbonementModel.swift */; };
+		2060987E275BF87300B818DC /* ClientAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060987D275BF87300B818DC /* ClientAdd.swift */; };
+		20609882275BF88100B818DC /* ClientDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060987F275BF88100B818DC /* ClientDelete.swift */; };
+		20609883275BF88100B818DC /* ClientEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609880275BF88100B818DC /* ClientEdit.swift */; };
+		20609884275BF88100B818DC /* ClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609881275BF88100B818DC /* ClientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +38,24 @@
 		2060980E275B68E300B818DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20609811275B68E300B818DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		20609813275B68E300B818DC /* iFitnessMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iFitnessMacOS.entitlements; sourceTree = "<group>"; };
+		20609819275B691300B818DC /* MainAdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAdminView.swift; sourceTree = "<group>"; };
+		20609824275B6B0400B818DC /* WorkersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkersListView.swift; sourceTree = "<group>"; };
+		20609827275B6B3500B818DC /* UserClubsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClubsView.swift; sourceTree = "<group>"; };
+		2060982B275B6D8600B818DC /* UserClub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClub.swift; sourceTree = "<group>"; };
+		2060982D275B6DAC00B818DC /* UserClubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClubModel.swift; sourceTree = "<group>"; };
+		20609832275B98EB00B818DC /* UserClubAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClubAdd.swift; sourceTree = "<group>"; };
+		20609838275BEF2400B818DC /* UserClubEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClubEdit.swift; sourceTree = "<group>"; };
+		2060983A275BEF3800B818DC /* UserClubDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClubDelete.swift; sourceTree = "<group>"; };
+		2060983C275BEFF400B818DC /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		2060983E275BEFFC00B818DC /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		20609840275BF01B00B818DC /* WorkerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerModel.swift; sourceTree = "<group>"; };
+		20609842275BF02500B818DC /* ClientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientModel.swift; sourceTree = "<group>"; };
+		20609844275BF0AC00B818DC /* Abonement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abonement.swift; sourceTree = "<group>"; };
+		20609846275BF11300B818DC /* AbonementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbonementModel.swift; sourceTree = "<group>"; };
+		2060987D275BF87300B818DC /* ClientAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientAdd.swift; sourceTree = "<group>"; };
+		2060987F275BF88100B818DC /* ClientDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientDelete.swift; sourceTree = "<group>"; };
+		20609880275BF88100B818DC /* ClientEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientEdit.swift; sourceTree = "<group>"; };
+		20609881275BF88100B818DC /* ClientsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +88,11 @@
 		20609809275B68E000B818DC /* iFitnessMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				2060982F275B8FB000B818DC /* Data */,
+				20609826275B6B2600B818DC /* UserClubs */,
+				20609823275B6AF200B818DC /* Workers */,
+				2060981B275B6A1000B818DC /* Clients */,
+				20609819275B691300B818DC /* MainAdminView.swift */,
 				2060980A275B68E000B818DC /* iFitnessMacOSApp.swift */,
 				2060980C275B68E000B818DC /* ContentView.swift */,
 				2060980E275B68E300B818DC /* Assets.xcassets */,
@@ -67,6 +108,67 @@
 				20609811275B68E300B818DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2060981B275B6A1000B818DC /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				2060987F275BF88100B818DC /* ClientDelete.swift */,
+				20609880275BF88100B818DC /* ClientEdit.swift */,
+				20609881275BF88100B818DC /* ClientsView.swift */,
+				2060987D275BF87300B818DC /* ClientAdd.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		20609823275B6AF200B818DC /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				20609824275B6B0400B818DC /* WorkersListView.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		20609826275B6B2600B818DC /* UserClubs */ = {
+			isa = PBXGroup;
+			children = (
+				20609827275B6B3500B818DC /* UserClubsView.swift */,
+				20609832275B98EB00B818DC /* UserClubAdd.swift */,
+				20609838275BEF2400B818DC /* UserClubEdit.swift */,
+				2060983A275BEF3800B818DC /* UserClubDelete.swift */,
+			);
+			path = UserClubs;
+			sourceTree = "<group>";
+		};
+		20609829275B6CD100B818DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2060982B275B6D8600B818DC /* UserClub.swift */,
+				2060983C275BEFF400B818DC /* Worker.swift */,
+				2060983E275BEFFC00B818DC /* Client.swift */,
+				20609844275BF0AC00B818DC /* Abonement.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2060982A275B6CDA00B818DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2060982D275B6DAC00B818DC /* UserClubModel.swift */,
+				20609840275BF01B00B818DC /* WorkerModel.swift */,
+				20609842275BF02500B818DC /* ClientModel.swift */,
+				20609846275BF11300B818DC /* AbonementModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2060982F275B8FB000B818DC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				20609829275B6CD100B818DC /* Models */,
+				2060982A275B6CDA00B818DC /* Services */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +241,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2060987E275BF87300B818DC /* ClientAdd.swift in Sources */,
+				20609884275BF88100B818DC /* ClientsView.swift in Sources */,
+				20609882275BF88100B818DC /* ClientDelete.swift in Sources */,
+				20609825275B6B0400B818DC /* WorkersListView.swift in Sources */,
+				20609847275BF11300B818DC /* AbonementModel.swift in Sources */,
+				2060983D275BEFF400B818DC /* Worker.swift in Sources */,
+				20609845275BF0AC00B818DC /* Abonement.swift in Sources */,
+				20609833275B98EB00B818DC /* UserClubAdd.swift in Sources */,
 				2060980D275B68E000B818DC /* ContentView.swift in Sources */,
+				20609841275BF01B00B818DC /* WorkerModel.swift in Sources */,
+				20609828275B6B3500B818DC /* UserClubsView.swift in Sources */,
+				20609843275BF02500B818DC /* ClientModel.swift in Sources */,
+				2060983F275BEFFC00B818DC /* Client.swift in Sources */,
+				2060982E275B6DAC00B818DC /* UserClubModel.swift in Sources */,
+				20609839275BEF2400B818DC /* UserClubEdit.swift in Sources */,
+				2060981A275B691300B818DC /* MainAdminView.swift in Sources */,
 				2060980B275B68E000B818DC /* iFitnessMacOSApp.swift in Sources */,
+				2060982C275B6D8600B818DC /* UserClub.swift in Sources */,
+				20609883275BF88100B818DC /* ClientEdit.swift in Sources */,
+				2060983B275BEF3800B818DC /* UserClubDelete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
