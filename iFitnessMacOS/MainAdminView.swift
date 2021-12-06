@@ -16,6 +16,20 @@ struct MainAdminView: View {
                 NavigationLink("Сотрудники", destination: WorkersListView())
                 NavigationLink("Клиенты", destination: ClientsView())
                 }
+            DisclosureGroup("Магазин"){
+                NavigationLink("Абонемент", destination: AbonementView())
+                NavigationLink("Бонусная программа", destination: BonusProgramView())
+            }
+            DisclosureGroup("Инвентарь"){
+                NavigationLink("Тип тренировки", destination: TypesTraningView())
+                NavigationLink("Залы", destination: HallView())
+                NavigationLink("Тип инвентаря", destination: TypesInventoryView())
+                NavigationLink("Производители", destination: FabricatorView())
+            }
+            DisclosureGroup("Дополнительные"){
+                NavigationLink("Образование",destination: EducationView())
+                NavigationLink("Должности", destination: PositionView())
+            }
             }
         }
     }

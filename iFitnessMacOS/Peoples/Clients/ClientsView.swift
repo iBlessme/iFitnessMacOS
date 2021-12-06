@@ -42,7 +42,7 @@ struct ClientsView: View {
             }
         }
         .sheet(isPresented: $showAdd){
-            ClientAdd()
+            ClientAdd(isVisible: self.$showAdd)
         }
         .sheet(isPresented: $showAEdit){
             ClientEdit()
@@ -51,7 +51,6 @@ struct ClientsView: View {
             ClientDelete()
         }
             
-            .padding()
             
         
     }

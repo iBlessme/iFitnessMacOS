@@ -29,6 +29,26 @@
 		20609882275BF88100B818DC /* ClientDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060987F275BF88100B818DC /* ClientDelete.swift */; };
 		20609883275BF88100B818DC /* ClientEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609880275BF88100B818DC /* ClientEdit.swift */; };
 		20609884275BF88100B818DC /* ClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20609881275BF88100B818DC /* ClientsView.swift */; };
+		20C5CEF8275E728D00F920A2 /* PositionWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CEF7275E728D00F920A2 /* PositionWork.swift */; };
+		20C5CEFA275E74BD00F920A2 /* WorkerAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CEF9275E74BD00F920A2 /* WorkerAdd.swift */; };
+		20C5CEFC275E74C700F920A2 /* WorkerEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CEFB275E74C700F920A2 /* WorkerEdit.swift */; };
+		20C5CEFE275E74D500F920A2 /* WorkerDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CEFD275E74D500F920A2 /* WorkerDelete.swift */; };
+		20C5CF04275E9C9600F920A2 /* AbonementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF03275E9C9600F920A2 /* AbonementView.swift */; };
+		20C5CF06275E9CA000F920A2 /* AbonementAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF05275E9CA000F920A2 /* AbonementAdd.swift */; };
+		20C5CF08275E9CA900F920A2 /* AbonementEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF07275E9CA900F920A2 /* AbonementEdit.swift */; };
+		20C5CF0A275E9CB300F920A2 /* AbonementDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF09275E9CB300F920A2 /* AbonementDelete.swift */; };
+		20C5CF0C275E9CC500F920A2 /* BonusProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF0B275E9CC500F920A2 /* BonusProgramView.swift */; };
+		20C5CF0E275E9CCF00F920A2 /* BonusProgramAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF0D275E9CCF00F920A2 /* BonusProgramAdd.swift */; };
+		20C5CF10275E9CE400F920A2 /* BonusProgrammEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF0F275E9CE400F920A2 /* BonusProgrammEdit.swift */; };
+		20C5CF12275E9CEF00F920A2 /* BonusProgramDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF11275E9CEF00F920A2 /* BonusProgramDelete.swift */; };
+		20C5CF14275E9D7300F920A2 /* BonusProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF13275E9D7300F920A2 /* BonusProgram.swift */; };
+		20C5CF16275E9D7F00F920A2 /* BonusProgramModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF15275E9D7F00F920A2 /* BonusProgramModel.swift */; };
+		20C5CF20275EAB3100F920A2 /* PositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF1F275EAB3100F920A2 /* PositionView.swift */; };
+		20C5CF22275EAB3B00F920A2 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF21275EAB3B00F920A2 /* EducationView.swift */; };
+		20C5CF24275EAB4500F920A2 /* FabricatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF23275EAB4500F920A2 /* FabricatorView.swift */; };
+		20C5CF26275EAB4C00F920A2 /* HallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF25275EAB4C00F920A2 /* HallView.swift */; };
+		20C5CF28275EAB6400F920A2 /* TypesInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF27275EAB6400F920A2 /* TypesInventoryView.swift */; };
+		20C5CF2A275EAB7100F920A2 /* TypesTraningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF29275EAB7100F920A2 /* TypesTraningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +76,26 @@
 		2060987F275BF88100B818DC /* ClientDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientDelete.swift; sourceTree = "<group>"; };
 		20609880275BF88100B818DC /* ClientEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientEdit.swift; sourceTree = "<group>"; };
 		20609881275BF88100B818DC /* ClientsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientsView.swift; sourceTree = "<group>"; };
+		20C5CEF7275E728D00F920A2 /* PositionWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionWork.swift; sourceTree = "<group>"; };
+		20C5CEF9275E74BD00F920A2 /* WorkerAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerAdd.swift; sourceTree = "<group>"; };
+		20C5CEFB275E74C700F920A2 /* WorkerEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerEdit.swift; sourceTree = "<group>"; };
+		20C5CEFD275E74D500F920A2 /* WorkerDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerDelete.swift; sourceTree = "<group>"; };
+		20C5CF03275E9C9600F920A2 /* AbonementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbonementView.swift; sourceTree = "<group>"; };
+		20C5CF05275E9CA000F920A2 /* AbonementAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbonementAdd.swift; sourceTree = "<group>"; };
+		20C5CF07275E9CA900F920A2 /* AbonementEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbonementEdit.swift; sourceTree = "<group>"; };
+		20C5CF09275E9CB300F920A2 /* AbonementDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbonementDelete.swift; sourceTree = "<group>"; };
+		20C5CF0B275E9CC500F920A2 /* BonusProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusProgramView.swift; sourceTree = "<group>"; };
+		20C5CF0D275E9CCF00F920A2 /* BonusProgramAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusProgramAdd.swift; sourceTree = "<group>"; };
+		20C5CF0F275E9CE400F920A2 /* BonusProgrammEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusProgrammEdit.swift; sourceTree = "<group>"; };
+		20C5CF11275E9CEF00F920A2 /* BonusProgramDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusProgramDelete.swift; sourceTree = "<group>"; };
+		20C5CF13275E9D7300F920A2 /* BonusProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusProgram.swift; sourceTree = "<group>"; };
+		20C5CF15275E9D7F00F920A2 /* BonusProgramModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusProgramModel.swift; sourceTree = "<group>"; };
+		20C5CF1F275EAB3100F920A2 /* PositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionView.swift; sourceTree = "<group>"; };
+		20C5CF21275EAB3B00F920A2 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		20C5CF23275EAB4500F920A2 /* FabricatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricatorView.swift; sourceTree = "<group>"; };
+		20C5CF25275EAB4C00F920A2 /* HallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallView.swift; sourceTree = "<group>"; };
+		20C5CF27275EAB6400F920A2 /* TypesInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesInventoryView.swift; sourceTree = "<group>"; };
+		20C5CF29275EAB7100F920A2 /* TypesTraningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesTraningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +128,11 @@
 		20609809275B68E000B818DC /* iFitnessMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				20C5CF18275EAA6600F920A2 /* Inventories */,
+				20C5CF17275EAA1E00F920A2 /* Extra */,
+				20C5CF00275E9C6400F920A2 /* Shop */,
+				20C5CEFF275E972900F920A2 /* Peoples */,
 				2060982F275B8FB000B818DC /* Data */,
-				20609826275B6B2600B818DC /* UserClubs */,
-				20609823275B6AF200B818DC /* Workers */,
-				2060981B275B6A1000B818DC /* Clients */,
 				20609819275B691300B818DC /* MainAdminView.swift */,
 				2060980A275B68E000B818DC /* iFitnessMacOSApp.swift */,
 				2060980C275B68E000B818DC /* ContentView.swift */,
@@ -125,6 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				20609824275B6B0400B818DC /* WorkersListView.swift */,
+				20C5CEF9275E74BD00F920A2 /* WorkerAdd.swift */,
+				20C5CEFB275E74C700F920A2 /* WorkerEdit.swift */,
+				20C5CEFD275E74D500F920A2 /* WorkerDelete.swift */,
 			);
 			path = Workers;
 			sourceTree = "<group>";
@@ -147,6 +191,8 @@
 				2060983C275BEFF400B818DC /* Worker.swift */,
 				2060983E275BEFFC00B818DC /* Client.swift */,
 				20609844275BF0AC00B818DC /* Abonement.swift */,
+				20C5CEF7275E728D00F920A2 /* PositionWork.swift */,
+				20C5CF13275E9D7300F920A2 /* BonusProgram.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,6 +204,7 @@
 				20609840275BF01B00B818DC /* WorkerModel.swift */,
 				20609842275BF02500B818DC /* ClientModel.swift */,
 				20609846275BF11300B818DC /* AbonementModel.swift */,
+				20C5CF15275E9D7F00F920A2 /* BonusProgramModel.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -169,6 +216,115 @@
 				2060982A275B6CDA00B818DC /* Services */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		20C5CEFF275E972900F920A2 /* Peoples */ = {
+			isa = PBXGroup;
+			children = (
+				2060981B275B6A1000B818DC /* Clients */,
+				20609823275B6AF200B818DC /* Workers */,
+				20609826275B6B2600B818DC /* UserClubs */,
+			);
+			path = Peoples;
+			sourceTree = "<group>";
+		};
+		20C5CF00275E9C6400F920A2 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF02275E9C7D00F920A2 /* BonusProgramm */,
+				20C5CF01275E9C6B00F920A2 /* Abonement */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		20C5CF01275E9C6B00F920A2 /* Abonement */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF03275E9C9600F920A2 /* AbonementView.swift */,
+				20C5CF05275E9CA000F920A2 /* AbonementAdd.swift */,
+				20C5CF07275E9CA900F920A2 /* AbonementEdit.swift */,
+				20C5CF09275E9CB300F920A2 /* AbonementDelete.swift */,
+			);
+			path = Abonement;
+			sourceTree = "<group>";
+		};
+		20C5CF02275E9C7D00F920A2 /* BonusProgramm */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF0B275E9CC500F920A2 /* BonusProgramView.swift */,
+				20C5CF0D275E9CCF00F920A2 /* BonusProgramAdd.swift */,
+				20C5CF0F275E9CE400F920A2 /* BonusProgrammEdit.swift */,
+				20C5CF11275E9CEF00F920A2 /* BonusProgramDelete.swift */,
+			);
+			path = BonusProgramm;
+			sourceTree = "<group>";
+		};
+		20C5CF17275EAA1E00F920A2 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF1A275EAA7900F920A2 /* PositionWork */,
+				20C5CF19275EAA7200F920A2 /* Education */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		20C5CF18275EAA6600F920A2 /* Inventories */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF1E275EAB0100F920A2 /* Fabricators */,
+				20C5CF1D275EAAD400F920A2 /* Halls */,
+				20C5CF1C275EAAC800F920A2 /* TypesOfInventories */,
+				20C5CF1B275EAA8400F920A2 /* TypesOfTraning */,
+			);
+			path = Inventories;
+			sourceTree = "<group>";
+		};
+		20C5CF19275EAA7200F920A2 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF21275EAB3B00F920A2 /* EducationView.swift */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		20C5CF1A275EAA7900F920A2 /* PositionWork */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF1F275EAB3100F920A2 /* PositionView.swift */,
+			);
+			path = PositionWork;
+			sourceTree = "<group>";
+		};
+		20C5CF1B275EAA8400F920A2 /* TypesOfTraning */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF29275EAB7100F920A2 /* TypesTraningView.swift */,
+			);
+			path = TypesOfTraning;
+			sourceTree = "<group>";
+		};
+		20C5CF1C275EAAC800F920A2 /* TypesOfInventories */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF27275EAB6400F920A2 /* TypesInventoryView.swift */,
+			);
+			path = TypesOfInventories;
+			sourceTree = "<group>";
+		};
+		20C5CF1D275EAAD400F920A2 /* Halls */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF25275EAB4C00F920A2 /* HallView.swift */,
+			);
+			path = Halls;
+			sourceTree = "<group>";
+		};
+		20C5CF1E275EAB0100F920A2 /* Fabricators */ = {
+			isa = PBXGroup;
+			children = (
+				20C5CF23275EAB4500F920A2 /* FabricatorView.swift */,
+			);
+			path = Fabricators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,19 +402,39 @@
 				20609882275BF88100B818DC /* ClientDelete.swift in Sources */,
 				20609825275B6B0400B818DC /* WorkersListView.swift in Sources */,
 				20609847275BF11300B818DC /* AbonementModel.swift in Sources */,
+				20C5CF12275E9CEF00F920A2 /* BonusProgramDelete.swift in Sources */,
 				2060983D275BEFF400B818DC /* Worker.swift in Sources */,
+				20C5CF24275EAB4500F920A2 /* FabricatorView.swift in Sources */,
 				20609845275BF0AC00B818DC /* Abonement.swift in Sources */,
 				20609833275B98EB00B818DC /* UserClubAdd.swift in Sources */,
+				20C5CF22275EAB3B00F920A2 /* EducationView.swift in Sources */,
+				20C5CF0A275E9CB300F920A2 /* AbonementDelete.swift in Sources */,
 				2060980D275B68E000B818DC /* ContentView.swift in Sources */,
 				20609841275BF01B00B818DC /* WorkerModel.swift in Sources */,
+				20C5CF0C275E9CC500F920A2 /* BonusProgramView.swift in Sources */,
+				20C5CEFE275E74D500F920A2 /* WorkerDelete.swift in Sources */,
+				20C5CF10275E9CE400F920A2 /* BonusProgrammEdit.swift in Sources */,
 				20609828275B6B3500B818DC /* UserClubsView.swift in Sources */,
 				20609843275BF02500B818DC /* ClientModel.swift in Sources */,
+				20C5CEFC275E74C700F920A2 /* WorkerEdit.swift in Sources */,
+				20C5CF28275EAB6400F920A2 /* TypesInventoryView.swift in Sources */,
+				20C5CF14275E9D7300F920A2 /* BonusProgram.swift in Sources */,
 				2060983F275BEFFC00B818DC /* Client.swift in Sources */,
+				20C5CF20275EAB3100F920A2 /* PositionView.swift in Sources */,
+				20C5CF16275E9D7F00F920A2 /* BonusProgramModel.swift in Sources */,
 				2060982E275B6DAC00B818DC /* UserClubModel.swift in Sources */,
 				20609839275BEF2400B818DC /* UserClubEdit.swift in Sources */,
+				20C5CF0E275E9CCF00F920A2 /* BonusProgramAdd.swift in Sources */,
+				20C5CF2A275EAB7100F920A2 /* TypesTraningView.swift in Sources */,
+				20C5CF26275EAB4C00F920A2 /* HallView.swift in Sources */,
+				20C5CF06275E9CA000F920A2 /* AbonementAdd.swift in Sources */,
+				20C5CEFA275E74BD00F920A2 /* WorkerAdd.swift in Sources */,
 				2060981A275B691300B818DC /* MainAdminView.swift in Sources */,
+				20C5CF04275E9C9600F920A2 /* AbonementView.swift in Sources */,
 				2060980B275B68E000B818DC /* iFitnessMacOSApp.swift in Sources */,
 				2060982C275B6D8600B818DC /* UserClub.swift in Sources */,
+				20C5CEF8275E728D00F920A2 /* PositionWork.swift in Sources */,
+				20C5CF08275E9CA900F920A2 /* AbonementEdit.swift in Sources */,
 				20609883275BF88100B818DC /* ClientEdit.swift in Sources */,
 				2060983B275BEF3800B818DC /* UserClubDelete.swift in Sources */,
 			);

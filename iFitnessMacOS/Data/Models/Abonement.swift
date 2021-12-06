@@ -11,5 +11,6 @@ struct Abonements: Hashable, Codable{
     public var id: Int
    public var name_abonement, cost_abonement, date_start, date_finish: String
    public var bonus_programms_id: Int
+    public var bonus: BonusProgram
     
 }

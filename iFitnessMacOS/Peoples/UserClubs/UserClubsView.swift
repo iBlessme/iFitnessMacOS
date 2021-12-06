@@ -47,16 +47,16 @@ struct UserClubsView: View {
             }
         }
         .sheet(isPresented: $showAdd){
-            UserClubAdd()
+            UserClubAdd(isVisible: self.$showAdd)
         }
         .sheet(isPresented: $showAEdit){
             UserClubEdit()
         }
         .sheet(isPresented: $showDelete){
-            UserClubAdd()
+            UserClubDelete()
         }
             
-            .padding()
+//            .padding()
        
         
         
