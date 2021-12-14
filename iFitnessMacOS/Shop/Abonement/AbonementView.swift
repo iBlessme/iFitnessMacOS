@@ -16,13 +16,17 @@ struct AbonementView: View {
         List(abonementModel, id: \.self){abonemens in
             HStack{
                 Text("id: \(abonemens.id)")
+                    .frame(width: 40)
                 Divider()
                 Text("Стоимость: \(abonemens.cost_abonement)")
+                    .frame(width: 100)
                 Divider()
                 Text("Начало: \(abonemens.date_start) - Конец: \(abonemens.date_finish) ")
+                    .frame(width: 230)
                 Divider()
                 Text("Бонусная программа: \(abonemens.bonus.name_programm)")
             }
+            Divider()
         }
         .onAppear{
             AbonementModel().fetch{ item in
@@ -44,10 +48,10 @@ struct AbonementView: View {
             AbonementAdd(isVisible: self.$showAdd)
         }
         .sheet(isPresented: $showAEdit){
-            AbonementEdit()
+            AbonementEdit(isVisible: self.$showAEdit)
         }
         .sheet(isPresented: $showDelete){
-            AbonementDelete()
+            AbonementDelete(isVisible: $showDelete)
         }
     }
 }

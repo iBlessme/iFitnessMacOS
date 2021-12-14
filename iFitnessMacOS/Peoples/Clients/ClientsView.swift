@@ -16,12 +16,16 @@ struct ClientsView: View {
         List(clients, id: \.self){client in
             HStack{
                 Text("id: \(client.id)")
+                    .frame(width: 40)
                 Divider()
-                Text("\(client.user_club.name_user) \(client.user_club.surname)")
+                Text("\(client.user_club.surname) \(client.user_club.name_user)")
+                    .frame(width: 150)
                 Divider()
                 Text("Логин: \(client.user_club.login)")
+                    .frame(width: 180)
                 Divider()
                 Text("Абонемент: \(client.abonement.name_abonement)")
+                    
             }
             Divider()
         }
@@ -45,10 +49,10 @@ struct ClientsView: View {
             ClientAdd(isVisible: self.$showAdd)
         }
         .sheet(isPresented: $showAEdit){
-            ClientEdit()
+            ClientEdit(isVisible: self.$showAEdit)
         }
         .sheet(isPresented: $showDelete){
-            ClientDelete()
+            ClientDelete(isVisible: self.$showDelete)
         }
             
             

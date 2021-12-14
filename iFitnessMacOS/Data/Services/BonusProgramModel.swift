@@ -16,6 +16,7 @@ public class BonusProgramModel: ObservableObject{
         }
    
         URLSession.shared.dataTask(with: url) {(data, response, error) in
+            do{
             if let data = data {
             let decodeList = try! JSONDecoder().decode([BonusProgram].self, from: data)
             print(decodeList)
@@ -24,6 +25,9 @@ public class BonusProgramModel: ObservableObject{
             }
             }else{
                 print("Не удалось получить данные")
+            }
+            }catch{
+                print(error)
             }
         }
         .resume()

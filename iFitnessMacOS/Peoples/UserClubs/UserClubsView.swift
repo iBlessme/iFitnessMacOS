@@ -17,14 +17,19 @@ struct UserClubsView: View {
             HStack{
             
                 Text("id: \(users.id)")
+                    .frame(width: 40)
                 Divider()
                 Text("\(users.surname) \(users.name_user) \(users.thirdname)")
+                    .frame(width: 180)
                 Divider()
                 Text("Паспорт: \(users.passport_serial) \(users.passport_number) Снилс: \(users.snils)")
+                    .frame(width: 130)
                 Divider()
                 Text("Номер телефона: \(users.phone_number)")
+                    .frame(width: 100)
                 Divider()
                 Text("Логин и пароль: \(users.login) \(users.password)")
+                    .frame(width: 180)
                 
             }
             Divider()
@@ -50,10 +55,10 @@ struct UserClubsView: View {
             UserClubAdd(isVisible: self.$showAdd)
         }
         .sheet(isPresented: $showAEdit){
-            UserClubEdit()
+            UserClubEdit(isVisible: self.$showAEdit)
         }
         .sheet(isPresented: $showDelete){
-            UserClubDelete()
+            UserClubDelete(isVisible: $showDelete)
         }
             
 //            .padding()

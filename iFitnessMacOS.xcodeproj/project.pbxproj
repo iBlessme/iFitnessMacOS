@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203E7E4A275F358300684CE5 /* PositionWorkAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E49275F358300684CE5 /* PositionWorkAdd.swift */; };
+		203E7E4C275F358C00684CE5 /* PositionWorkEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E4B275F358C00684CE5 /* PositionWorkEdit.swift */; };
+		203E7E4E275F359500684CE5 /* PositionWorkDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E4D275F359500684CE5 /* PositionWorkDelete.swift */; };
+		203E7E50275F359F00684CE5 /* EducationAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E4F275F359F00684CE5 /* EducationAdd.swift */; };
+		203E7E52275F35A900684CE5 /* EducationEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E51275F35A900684CE5 /* EducationEdit.swift */; };
+		203E7E54275F35B600684CE5 /* EducationDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E53275F35B600684CE5 /* EducationDelete.swift */; };
+		203E7E56275F35EC00684CE5 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E55275F35EC00684CE5 /* Education.swift */; };
+		203E7E58275F371C00684CE5 /* EducationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E57275F371C00684CE5 /* EducationModel.swift */; };
+		203E7E5A275F43AD00684CE5 /* PositionWorkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E59275F43AD00684CE5 /* PositionWorkModel.swift */; };
+		2056CD81275F99A000C0012E /* TypesOfInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD80275F99A000C0012E /* TypesOfInventory.swift */; };
+		2056CD83275F99E900C0012E /* TypesOfInventoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD82275F99E900C0012E /* TypesOfInventoryModel.swift */; };
+		2056CD8527606C0E00C0012E /* TypesInventoryAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD8427606C0E00C0012E /* TypesInventoryAdd.swift */; };
+		2056CD8727606C1900C0012E /* TypesInventoryEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD8627606C1900C0012E /* TypesInventoryEdit.swift */; };
+		2056CD8927606C2200C0012E /* TypesInventoryDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD8827606C2200C0012E /* TypesInventoryDelete.swift */; };
+		2056CD8B27606E6500C0012E /* Hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD8A27606E6500C0012E /* Hall.swift */; };
+		2056CD8D27606E6C00C0012E /* HallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD8C27606E6C00C0012E /* HallModel.swift */; };
+		2056CD8F27606EC200C0012E /* TypesOfTraning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD8E27606EC200C0012E /* TypesOfTraning.swift */; };
+		2056CD9127606ECD00C0012E /* TypesOfTraningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD9027606ECD00C0012E /* TypesOfTraningModel.swift */; };
+		2056CD9327607FF300C0012E /* TypesOfTraningAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD9227607FF300C0012E /* TypesOfTraningAdd.swift */; };
+		2056CD9527607FFB00C0012E /* TypesOfTraningEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD9427607FFB00C0012E /* TypesOfTraningEdit.swift */; };
+		2056CD972760800200C0012E /* TypesOfTraningDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD962760800200C0012E /* TypesOfTraningDelete.swift */; };
+		2056CD9927608BB000C0012E /* HallAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD9827608BB000C0012E /* HallAdd.swift */; };
+		2056CD9B27608BB600C0012E /* HallEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD9A27608BB600C0012E /* HallEdit.swift */; };
+		2056CD9D27608BBF00C0012E /* HallDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD9C27608BBF00C0012E /* HallDelete.swift */; };
+		2056CD9F2760CD3900C0012E /* Fabricator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CD9E2760CD3800C0012E /* Fabricator.swift */; };
+		2056CDA12760CDBC00C0012E /* FabricatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CDA02760CDBC00C0012E /* FabricatorModel.swift */; };
+		2056CDA32760D02300C0012E /* FabricatorAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CDA22760D02300C0012E /* FabricatorAdd.swift */; };
+		2056CDA52760D02B00C0012E /* FabricatorEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CDA42760D02B00C0012E /* FabricatorEdit.swift */; };
+		2056CDA72760D03400C0012E /* FabricatorDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056CDA62760D03400C0012E /* FabricatorDelete.swift */; };
 		2060980B275B68E000B818DC /* iFitnessMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060980A275B68E000B818DC /* iFitnessMacOSApp.swift */; };
 		2060980D275B68E000B818DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060980C275B68E000B818DC /* ContentView.swift */; };
 		2060980F275B68E300B818DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2060980E275B68E300B818DC /* Assets.xcassets */; };
@@ -52,6 +81,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		203E7E49275F358300684CE5 /* PositionWorkAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionWorkAdd.swift; sourceTree = "<group>"; };
+		203E7E4B275F358C00684CE5 /* PositionWorkEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionWorkEdit.swift; sourceTree = "<group>"; };
+		203E7E4D275F359500684CE5 /* PositionWorkDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionWorkDelete.swift; sourceTree = "<group>"; };
+		203E7E4F275F359F00684CE5 /* EducationAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationAdd.swift; sourceTree = "<group>"; };
+		203E7E51275F35A900684CE5 /* EducationEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationEdit.swift; sourceTree = "<group>"; };
+		203E7E53275F35B600684CE5 /* EducationDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationDelete.swift; sourceTree = "<group>"; };
+		203E7E55275F35EC00684CE5 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		203E7E57275F371C00684CE5 /* EducationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationModel.swift; sourceTree = "<group>"; };
+		203E7E59275F43AD00684CE5 /* PositionWorkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionWorkModel.swift; sourceTree = "<group>"; };
+		2056CD80275F99A000C0012E /* TypesOfInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesOfInventory.swift; sourceTree = "<group>"; };
+		2056CD82275F99E900C0012E /* TypesOfInventoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesOfInventoryModel.swift; sourceTree = "<group>"; };
+		2056CD8427606C0E00C0012E /* TypesInventoryAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesInventoryAdd.swift; sourceTree = "<group>"; };
+		2056CD8627606C1900C0012E /* TypesInventoryEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesInventoryEdit.swift; sourceTree = "<group>"; };
+		2056CD8827606C2200C0012E /* TypesInventoryDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesInventoryDelete.swift; sourceTree = "<group>"; };
+		2056CD8A27606E6500C0012E /* Hall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hall.swift; sourceTree = "<group>"; };
+		2056CD8C27606E6C00C0012E /* HallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallModel.swift; sourceTree = "<group>"; };
+		2056CD8E27606EC200C0012E /* TypesOfTraning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesOfTraning.swift; sourceTree = "<group>"; };
+		2056CD9027606ECD00C0012E /* TypesOfTraningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesOfTraningModel.swift; sourceTree = "<group>"; };
+		2056CD9227607FF300C0012E /* TypesOfTraningAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesOfTraningAdd.swift; sourceTree = "<group>"; };
+		2056CD9427607FFB00C0012E /* TypesOfTraningEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesOfTraningEdit.swift; sourceTree = "<group>"; };
+		2056CD962760800200C0012E /* TypesOfTraningDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesOfTraningDelete.swift; sourceTree = "<group>"; };
+		2056CD9827608BB000C0012E /* HallAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallAdd.swift; sourceTree = "<group>"; };
+		2056CD9A27608BB600C0012E /* HallEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallEdit.swift; sourceTree = "<group>"; };
+		2056CD9C27608BBF00C0012E /* HallDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallDelete.swift; sourceTree = "<group>"; };
+		2056CD9E2760CD3800C0012E /* Fabricator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fabricator.swift; sourceTree = "<group>"; };
+		2056CDA02760CDBC00C0012E /* FabricatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricatorModel.swift; sourceTree = "<group>"; };
+		2056CDA22760D02300C0012E /* FabricatorAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricatorAdd.swift; sourceTree = "<group>"; };
+		2056CDA42760D02B00C0012E /* FabricatorEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricatorEdit.swift; sourceTree = "<group>"; };
+		2056CDA62760D03400C0012E /* FabricatorDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricatorDelete.swift; sourceTree = "<group>"; };
 		20609807275B68E000B818DC /* iFitnessMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFitnessMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2060980A275B68E000B818DC /* iFitnessMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFitnessMacOSApp.swift; sourceTree = "<group>"; };
 		2060980C275B68E000B818DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -193,6 +251,11 @@
 				20609844275BF0AC00B818DC /* Abonement.swift */,
 				20C5CEF7275E728D00F920A2 /* PositionWork.swift */,
 				20C5CF13275E9D7300F920A2 /* BonusProgram.swift */,
+				203E7E55275F35EC00684CE5 /* Education.swift */,
+				2056CD80275F99A000C0012E /* TypesOfInventory.swift */,
+				2056CD8A27606E6500C0012E /* Hall.swift */,
+				2056CD8E27606EC200C0012E /* TypesOfTraning.swift */,
+				2056CD9E2760CD3800C0012E /* Fabricator.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -205,6 +268,12 @@
 				20609842275BF02500B818DC /* ClientModel.swift */,
 				20609846275BF11300B818DC /* AbonementModel.swift */,
 				20C5CF15275E9D7F00F920A2 /* BonusProgramModel.swift */,
+				203E7E57275F371C00684CE5 /* EducationModel.swift */,
+				203E7E59275F43AD00684CE5 /* PositionWorkModel.swift */,
+				2056CD82275F99E900C0012E /* TypesOfInventoryModel.swift */,
+				2056CD8C27606E6C00C0012E /* HallModel.swift */,
+				2056CD9027606ECD00C0012E /* TypesOfTraningModel.swift */,
+				2056CDA02760CDBC00C0012E /* FabricatorModel.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -283,6 +352,9 @@
 			isa = PBXGroup;
 			children = (
 				20C5CF21275EAB3B00F920A2 /* EducationView.swift */,
+				203E7E4F275F359F00684CE5 /* EducationAdd.swift */,
+				203E7E51275F35A900684CE5 /* EducationEdit.swift */,
+				203E7E53275F35B600684CE5 /* EducationDelete.swift */,
 			);
 			path = Education;
 			sourceTree = "<group>";
@@ -291,6 +363,9 @@
 			isa = PBXGroup;
 			children = (
 				20C5CF1F275EAB3100F920A2 /* PositionView.swift */,
+				203E7E49275F358300684CE5 /* PositionWorkAdd.swift */,
+				203E7E4B275F358C00684CE5 /* PositionWorkEdit.swift */,
+				203E7E4D275F359500684CE5 /* PositionWorkDelete.swift */,
 			);
 			path = PositionWork;
 			sourceTree = "<group>";
@@ -299,6 +374,9 @@
 			isa = PBXGroup;
 			children = (
 				20C5CF29275EAB7100F920A2 /* TypesTraningView.swift */,
+				2056CD9227607FF300C0012E /* TypesOfTraningAdd.swift */,
+				2056CD9427607FFB00C0012E /* TypesOfTraningEdit.swift */,
+				2056CD962760800200C0012E /* TypesOfTraningDelete.swift */,
 			);
 			path = TypesOfTraning;
 			sourceTree = "<group>";
@@ -307,6 +385,9 @@
 			isa = PBXGroup;
 			children = (
 				20C5CF27275EAB6400F920A2 /* TypesInventoryView.swift */,
+				2056CD8427606C0E00C0012E /* TypesInventoryAdd.swift */,
+				2056CD8627606C1900C0012E /* TypesInventoryEdit.swift */,
+				2056CD8827606C2200C0012E /* TypesInventoryDelete.swift */,
 			);
 			path = TypesOfInventories;
 			sourceTree = "<group>";
@@ -315,6 +396,9 @@
 			isa = PBXGroup;
 			children = (
 				20C5CF25275EAB4C00F920A2 /* HallView.swift */,
+				2056CD9827608BB000C0012E /* HallAdd.swift */,
+				2056CD9A27608BB600C0012E /* HallEdit.swift */,
+				2056CD9C27608BBF00C0012E /* HallDelete.swift */,
 			);
 			path = Halls;
 			sourceTree = "<group>";
@@ -323,6 +407,9 @@
 			isa = PBXGroup;
 			children = (
 				20C5CF23275EAB4500F920A2 /* FabricatorView.swift */,
+				2056CDA22760D02300C0012E /* FabricatorAdd.swift */,
+				2056CDA42760D02B00C0012E /* FabricatorEdit.swift */,
+				2056CDA62760D03400C0012E /* FabricatorDelete.swift */,
 			);
 			path = Fabricators;
 			sourceTree = "<group>";
@@ -403,40 +490,69 @@
 				20609825275B6B0400B818DC /* WorkersListView.swift in Sources */,
 				20609847275BF11300B818DC /* AbonementModel.swift in Sources */,
 				20C5CF12275E9CEF00F920A2 /* BonusProgramDelete.swift in Sources */,
+				2056CDA72760D03400C0012E /* FabricatorDelete.swift in Sources */,
+				2056CD9327607FF300C0012E /* TypesOfTraningAdd.swift in Sources */,
 				2060983D275BEFF400B818DC /* Worker.swift in Sources */,
 				20C5CF24275EAB4500F920A2 /* FabricatorView.swift in Sources */,
+				203E7E5A275F43AD00684CE5 /* PositionWorkModel.swift in Sources */,
 				20609845275BF0AC00B818DC /* Abonement.swift in Sources */,
 				20609833275B98EB00B818DC /* UserClubAdd.swift in Sources */,
 				20C5CF22275EAB3B00F920A2 /* EducationView.swift in Sources */,
 				20C5CF0A275E9CB300F920A2 /* AbonementDelete.swift in Sources */,
 				2060980D275B68E000B818DC /* ContentView.swift in Sources */,
+				2056CD9127606ECD00C0012E /* TypesOfTraningModel.swift in Sources */,
 				20609841275BF01B00B818DC /* WorkerModel.swift in Sources */,
+				2056CD83275F99E900C0012E /* TypesOfInventoryModel.swift in Sources */,
 				20C5CF0C275E9CC500F920A2 /* BonusProgramView.swift in Sources */,
+				203E7E4E275F359500684CE5 /* PositionWorkDelete.swift in Sources */,
+				2056CD8527606C0E00C0012E /* TypesInventoryAdd.swift in Sources */,
 				20C5CEFE275E74D500F920A2 /* WorkerDelete.swift in Sources */,
 				20C5CF10275E9CE400F920A2 /* BonusProgrammEdit.swift in Sources */,
 				20609828275B6B3500B818DC /* UserClubsView.swift in Sources */,
+				203E7E4A275F358300684CE5 /* PositionWorkAdd.swift in Sources */,
 				20609843275BF02500B818DC /* ClientModel.swift in Sources */,
 				20C5CEFC275E74C700F920A2 /* WorkerEdit.swift in Sources */,
+				2056CD9B27608BB600C0012E /* HallEdit.swift in Sources */,
 				20C5CF28275EAB6400F920A2 /* TypesInventoryView.swift in Sources */,
 				20C5CF14275E9D7300F920A2 /* BonusProgram.swift in Sources */,
 				2060983F275BEFFC00B818DC /* Client.swift in Sources */,
 				20C5CF20275EAB3100F920A2 /* PositionView.swift in Sources */,
 				20C5CF16275E9D7F00F920A2 /* BonusProgramModel.swift in Sources */,
 				2060982E275B6DAC00B818DC /* UserClubModel.swift in Sources */,
+				2056CDA52760D02B00C0012E /* FabricatorEdit.swift in Sources */,
+				2056CD81275F99A000C0012E /* TypesOfInventory.swift in Sources */,
+				2056CD9927608BB000C0012E /* HallAdd.swift in Sources */,
+				203E7E58275F371C00684CE5 /* EducationModel.swift in Sources */,
 				20609839275BEF2400B818DC /* UserClubEdit.swift in Sources */,
 				20C5CF0E275E9CCF00F920A2 /* BonusProgramAdd.swift in Sources */,
+				2056CD8727606C1900C0012E /* TypesInventoryEdit.swift in Sources */,
+				2056CDA12760CDBC00C0012E /* FabricatorModel.swift in Sources */,
+				2056CD9527607FFB00C0012E /* TypesOfTraningEdit.swift in Sources */,
+				2056CD8D27606E6C00C0012E /* HallModel.swift in Sources */,
+				2056CD8B27606E6500C0012E /* Hall.swift in Sources */,
 				20C5CF2A275EAB7100F920A2 /* TypesTraningView.swift in Sources */,
 				20C5CF26275EAB4C00F920A2 /* HallView.swift in Sources */,
 				20C5CF06275E9CA000F920A2 /* AbonementAdd.swift in Sources */,
 				20C5CEFA275E74BD00F920A2 /* WorkerAdd.swift in Sources */,
+				203E7E4C275F358C00684CE5 /* PositionWorkEdit.swift in Sources */,
 				2060981A275B691300B818DC /* MainAdminView.swift in Sources */,
+				2056CD972760800200C0012E /* TypesOfTraningDelete.swift in Sources */,
 				20C5CF04275E9C9600F920A2 /* AbonementView.swift in Sources */,
 				2060980B275B68E000B818DC /* iFitnessMacOSApp.swift in Sources */,
+				203E7E52275F35A900684CE5 /* EducationEdit.swift in Sources */,
 				2060982C275B6D8600B818DC /* UserClub.swift in Sources */,
 				20C5CEF8275E728D00F920A2 /* PositionWork.swift in Sources */,
+				2056CDA32760D02300C0012E /* FabricatorAdd.swift in Sources */,
+				203E7E56275F35EC00684CE5 /* Education.swift in Sources */,
 				20C5CF08275E9CA900F920A2 /* AbonementEdit.swift in Sources */,
+				2056CD8927606C2200C0012E /* TypesInventoryDelete.swift in Sources */,
 				20609883275BF88100B818DC /* ClientEdit.swift in Sources */,
+				2056CD8F27606EC200C0012E /* TypesOfTraning.swift in Sources */,
+				203E7E54275F35B600684CE5 /* EducationDelete.swift in Sources */,
+				203E7E50275F359F00684CE5 /* EducationAdd.swift in Sources */,
+				2056CD9F2760CD3900C0012E /* Fabricator.swift in Sources */,
 				2060983B275BEF3800B818DC /* UserClubDelete.swift in Sources */,
+				2056CD9D27608BBF00C0012E /* HallDelete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

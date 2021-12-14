@@ -1,29 +1,26 @@
 //
-//  BonusProgrammEdit.swift
+//  PositionWorkEdit.swift
 //  iFitnessMacOS
 //
-//  Created by iBlessme on 06.12.2021.
+//  Created by iBlessme on 07.12.2021.
 //
 
 import SwiftUI
 
-struct BonusProgrammEdit: View {
+struct PositionWorkEdit: View {
     @Binding var isVisible: Bool
     @State var id = String()
-    @State var cost = String()
-    @State var nameProgramm = String()
-    
+    @State var namePosition = String()
     var body: some View {
         VStack{
-            TextField("id", text: $id)
-            TextField("Название программы", text: $nameProgramm)
-            TextField("Стоимость", text: $cost)
-            HStack {
+            TextField("Укажите ID", text: $id)
+            TextField("Укажите должность", text: $namePosition)
+            HStack{
                 Button("Закрыть"){
                     self.isVisible = false
                 }
                 Button("Добавить"){
-                    guard let url = URL(string: "http://127.0.0.1:8000/api/bonus_programm/\(id)") else {
+                    guard let url = URL(string: "http://127.0.0.1:8000/api/positionWork/\(id)") else {
                           print("error1")
                           return
                       }
@@ -31,21 +28,19 @@ struct BonusProgrammEdit: View {
                       request.httpMethod = "PUT"
                       request.setValue("application/json", forHTTPHeaderField: "Content-Type")
                       let body: [String: AnyHashable] = [
-                        "name_programm" : nameProgramm,
-                        "cost" : cost
+                        "name_position" : namePosition
                   
                       ]
                     print(body)
                       request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
                   
-                      let task = URLSession.shared.dataTask(with: request) {data, _, error in
+                      let task = URLSession.shared.dataTask(with: request) {data, response, error in
                           guard let data = data, error == nil else{
                               return
                           }
                           do{
                               let response = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
                               print("Success: \(response)")
-                              self.isVisible = false
                           }catch{
                               print(error)
                           }
@@ -53,15 +48,14 @@ struct BonusProgrammEdit: View {
                       task.resume()
                 }
                 .background(Color.accentColor)
-                
             }
         }
         .padding()
     }
 }
 
-struct BonusProgrammEdit_Previews: PreviewProvider {
+struct PositionWorkEdit_Previews: PreviewProvider {
     static var previews: some View {
-        BonusProgrammEdit(isVisible: .constant(true))
+        PositionWorkEdit(isVisible: .constant(true))
     }
 }

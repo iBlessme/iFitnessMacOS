@@ -1,13 +1,13 @@
 //
-//  BonusProgramDelete.swift
+//  Fabricatordelete.swift
 //  iFitnessMacOS
 //
-//  Created by iBlessme on 06.12.2021.
+//  Created by iBlessme on 08.12.2021.
 //
 
 import SwiftUI
 
-struct BonusProgramDelete: View {
+struct FabricatorDelete: View {
     @Binding var isVisible: Bool
     @State var id = String()
     var body: some View {
@@ -18,7 +18,7 @@ struct BonusProgramDelete: View {
                     self.isVisible = false
                 }
                 Button("Добавить"){
-                    guard let url = URL(string: "http://127.0.0.1:8000/api/bonus_programm/\(id)") else {
+                    guard let url = URL(string: "http://127.0.0.1:8000/api/fabricator/\(id)") else {
                         print("Не удалось подключиться к API")
                         return
                     }
@@ -34,6 +34,8 @@ struct BonusProgramDelete: View {
                         }catch{
                             print(error)
                         }
+                      
+                        
                     }
                     .resume()
                 }
@@ -43,8 +45,8 @@ struct BonusProgramDelete: View {
     }
 }
 
-struct BonusProgramDelete_Previews: PreviewProvider {
+struct Fabricatordelete_Previews: PreviewProvider {
     static var previews: some View {
-        BonusProgramDelete(isVisible: .constant(true))
+        FabricatorDelete(isVisible: .constant(true))
     }
 }

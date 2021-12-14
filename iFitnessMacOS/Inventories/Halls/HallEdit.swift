@@ -1,39 +1,40 @@
 //
-//  BonusProgrammEdit.swift
+//  HallEdit.swift
 //  iFitnessMacOS
 //
-//  Created by iBlessme on 06.12.2021.
+//  Created by iBlessme on 08.12.2021.
 //
 
 import SwiftUI
 
-struct BonusProgrammEdit: View {
+struct HallEdit: View {
     @Binding var isVisible: Bool
     @State var id = String()
-    @State var cost = String()
-    @State var nameProgramm = String()
-    
+    @State var nameHall = String()
+    @State var capacity = String()
+    @State var typesTraning = String()
     var body: some View {
         VStack{
             TextField("id", text: $id)
-            TextField("Название программы", text: $nameProgramm)
-            TextField("Стоимость", text: $cost)
-            HStack {
+            TextField("Название зала", text: $nameHall)
+            TextField("Вместимость", text: $capacity)
+            TextField("Тип тренировки", text: $typesTraning)
+            HStack{
                 Button("Закрыть"){
                     self.isVisible = false
                 }
                 Button("Добавить"){
-                    guard let url = URL(string: "http://127.0.0.1:8000/api/bonus_programm/\(id)") else {
-                          print("error1")
+                    guard let url = URL(string: "http://127.0.0.1:8000/api/hall/\(id)") else {
+                          print("Не удалось подключится к API")
                           return
                       }
                       var request = URLRequest(url: url)
                       request.httpMethod = "PUT"
                       request.setValue("application/json", forHTTPHeaderField: "Content-Type")
                       let body: [String: AnyHashable] = [
-                        "name_programm" : nameProgramm,
-                        "cost" : cost
-                  
+                        "name_hall" : nameHall,
+                        "capacity" : capacity,
+                        "types_of_tranings_id" : typesTraning
                       ]
                     print(body)
                       request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
@@ -53,15 +54,15 @@ struct BonusProgrammEdit: View {
                       task.resume()
                 }
                 .background(Color.accentColor)
-                
             }
+            
         }
         .padding()
     }
 }
 
-struct BonusProgrammEdit_Previews: PreviewProvider {
+struct HallEdit_Previews: PreviewProvider {
     static var previews: some View {
-        BonusProgrammEdit(isVisible: .constant(true))
+        HallEdit(isVisible: .constant(true))
     }
 }

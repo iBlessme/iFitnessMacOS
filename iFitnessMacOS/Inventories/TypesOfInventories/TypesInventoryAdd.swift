@@ -1,38 +1,33 @@
 //
-//  BonusProgrammEdit.swift
+//  TypesInventoryAdd.swift
 //  iFitnessMacOS
 //
-//  Created by iBlessme on 06.12.2021.
+//  Created by iBlessme on 08.12.2021.
 //
 
 import SwiftUI
 
-struct BonusProgrammEdit: View {
+struct TypesInventoryAdd: View {
     @Binding var isVisible: Bool
-    @State var id = String()
-    @State var cost = String()
-    @State var nameProgramm = String()
-    
+    @State var nameInventory = String()
     var body: some View {
         VStack{
-            TextField("id", text: $id)
-            TextField("Название программы", text: $nameProgramm)
-            TextField("Стоимость", text: $cost)
-            HStack {
+            TextField("Наименование", text: $nameInventory)
+            HStack{
                 Button("Закрыть"){
                     self.isVisible = false
                 }
                 Button("Добавить"){
-                    guard let url = URL(string: "http://127.0.0.1:8000/api/bonus_programm/\(id)") else {
-                          print("error1")
+                    guard let url = URL(string: "http://127.0.0.1:8000/api/typesOfInventory") else {
+                          print("Не удалось подключится к API")
                           return
                       }
                       var request = URLRequest(url: url)
-                      request.httpMethod = "PUT"
+                      request.httpMethod = "POST"
                       request.setValue("application/json", forHTTPHeaderField: "Content-Type")
                       let body: [String: AnyHashable] = [
-                        "name_programm" : nameProgramm,
-                        "cost" : cost
+                        "name_inventory" : nameInventory
+                      
                   
                       ]
                     print(body)
@@ -53,15 +48,14 @@ struct BonusProgrammEdit: View {
                       task.resume()
                 }
                 .background(Color.accentColor)
-                
             }
         }
         .padding()
     }
 }
 
-struct BonusProgrammEdit_Previews: PreviewProvider {
+struct TypesInventoryAdd_Previews: PreviewProvider {
     static var previews: some View {
-        BonusProgrammEdit(isVisible: .constant(true))
+        TypesInventoryAdd(isVisible: .constant(true))
     }
 }

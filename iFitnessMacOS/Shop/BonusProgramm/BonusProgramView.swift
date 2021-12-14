@@ -16,8 +16,10 @@ struct BonusProgramView: View {
         List(bonusProgramModel, id: \.self) {programms in
             HStack{
                 Text("id: \(programms.id)")
+                    .frame(width: 40)
                 Divider()
                 Text("Наименование: \(programms.name_programm)")
+                    .frame(width: 220)
                 Divider()
                 Text("Стоимость: \(programms.cost)")
             }
@@ -43,10 +45,10 @@ struct BonusProgramView: View {
             BonusProgramAdd(isVisible: self.$showAdd)
         }
         .sheet(isPresented: $showAEdit){
-            BonusProgrammEdit()
+            BonusProgrammEdit(isVisible: $showAEdit)
         }
         .sheet(isPresented: $showDelete){
-            BonusProgramDelete()
+            BonusProgramDelete(isVisible: $showDelete)
         }
         
     }

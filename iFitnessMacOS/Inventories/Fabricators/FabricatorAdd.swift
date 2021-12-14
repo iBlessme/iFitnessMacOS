@@ -1,39 +1,35 @@
 //
-//  BonusProgrammEdit.swift
+//  FabricatorAdd.swift
 //  iFitnessMacOS
 //
-//  Created by iBlessme on 06.12.2021.
+//  Created by iBlessme on 08.12.2021.
 //
 
 import SwiftUI
 
-struct BonusProgrammEdit: View {
+struct FabricatorAdd: View {
     @Binding var isVisible: Bool
-    @State var id = String()
-    @State var cost = String()
-    @State var nameProgramm = String()
-    
+    @State var name = String()
+    @State var country = String()
     var body: some View {
         VStack{
-            TextField("id", text: $id)
-            TextField("Название программы", text: $nameProgramm)
-            TextField("Стоимость", text: $cost)
-            HStack {
+            TextField("Производитель", text: $name)
+            TextField("Страна", text: $country)
+            HStack{
                 Button("Закрыть"){
                     self.isVisible = false
                 }
                 Button("Добавить"){
-                    guard let url = URL(string: "http://127.0.0.1:8000/api/bonus_programm/\(id)") else {
-                          print("error1")
+                    guard let url = URL(string: "http://127.0.0.1:8000/api/fabricator") else {
+                          print("Не удалось подключится к API")
                           return
                       }
                       var request = URLRequest(url: url)
-                      request.httpMethod = "PUT"
+                      request.httpMethod = "POST"
                       request.setValue("application/json", forHTTPHeaderField: "Content-Type")
                       let body: [String: AnyHashable] = [
-                        "name_programm" : nameProgramm,
-                        "cost" : cost
-                  
+                        "name_fabricator" : name,
+                        "country" : country
                       ]
                     print(body)
                       request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
@@ -53,15 +49,14 @@ struct BonusProgrammEdit: View {
                       task.resume()
                 }
                 .background(Color.accentColor)
-                
             }
         }
         .padding()
     }
 }
 
-struct BonusProgrammEdit_Previews: PreviewProvider {
+struct FabricatorAdd_Previews: PreviewProvider {
     static var previews: some View {
-        BonusProgrammEdit(isVisible: .constant(true))
+        FabricatorAdd(isVisible: .constant(true))
     }
 }
