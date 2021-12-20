@@ -17,7 +17,7 @@ struct ClientDelete: View {
                 Button("Закрыть"){
                     self.isVisible = false
                 }
-                Button("Добавить"){
+                Button("Удалить"){
                     guard let url = URL(string: "http://127.0.0.1:8000/api/client/\(id)") else {
                         print("Не удалось подключиться к API")
                         return

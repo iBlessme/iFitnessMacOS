@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		203E7E4A275F358300684CE5 /* PositionWorkAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E49275F358300684CE5 /* PositionWorkAdd.swift */; };
 		203E7E4C275F358C00684CE5 /* PositionWorkEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E4B275F358C00684CE5 /* PositionWorkEdit.swift */; };
-		203E7E4E275F359500684CE5 /* PositionWorkDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E4D275F359500684CE5 /* PositionWorkDelete.swift */; };
 		203E7E50275F359F00684CE5 /* EducationAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E4F275F359F00684CE5 /* EducationAdd.swift */; };
 		203E7E52275F35A900684CE5 /* EducationEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E51275F35A900684CE5 /* EducationEdit.swift */; };
-		203E7E54275F35B600684CE5 /* EducationDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E53275F35B600684CE5 /* EducationDelete.swift */; };
 		203E7E56275F35EC00684CE5 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E55275F35EC00684CE5 /* Education.swift */; };
 		203E7E58275F371C00684CE5 /* EducationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E57275F371C00684CE5 /* EducationModel.swift */; };
 		203E7E5A275F43AD00684CE5 /* PositionWorkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7E59275F43AD00684CE5 /* PositionWorkModel.swift */; };
@@ -78,15 +76,14 @@
 		20C5CF26275EAB4C00F920A2 /* HallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF25275EAB4C00F920A2 /* HallView.swift */; };
 		20C5CF28275EAB6400F920A2 /* TypesInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF27275EAB6400F920A2 /* TypesInventoryView.swift */; };
 		20C5CF2A275EAB7100F920A2 /* TypesTraningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5CF29275EAB7100F920A2 /* TypesTraningView.swift */; };
+		20CD9E46276DD0F80015811F /* EducationDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD9E45276DD0F80015811F /* EducationDelete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		203E7E49275F358300684CE5 /* PositionWorkAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionWorkAdd.swift; sourceTree = "<group>"; };
 		203E7E4B275F358C00684CE5 /* PositionWorkEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionWorkEdit.swift; sourceTree = "<group>"; };
-		203E7E4D275F359500684CE5 /* PositionWorkDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionWorkDelete.swift; sourceTree = "<group>"; };
 		203E7E4F275F359F00684CE5 /* EducationAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationAdd.swift; sourceTree = "<group>"; };
 		203E7E51275F35A900684CE5 /* EducationEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationEdit.swift; sourceTree = "<group>"; };
-		203E7E53275F35B600684CE5 /* EducationDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationDelete.swift; sourceTree = "<group>"; };
 		203E7E55275F35EC00684CE5 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
 		203E7E57275F371C00684CE5 /* EducationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationModel.swift; sourceTree = "<group>"; };
 		203E7E59275F43AD00684CE5 /* PositionWorkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionWorkModel.swift; sourceTree = "<group>"; };
@@ -154,6 +151,7 @@
 		20C5CF25275EAB4C00F920A2 /* HallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallView.swift; sourceTree = "<group>"; };
 		20C5CF27275EAB6400F920A2 /* TypesInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesInventoryView.swift; sourceTree = "<group>"; };
 		20C5CF29275EAB7100F920A2 /* TypesTraningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesTraningView.swift; sourceTree = "<group>"; };
+		20CD9E45276DD0F80015811F /* EducationDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationDelete.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,10 +349,10 @@
 		20C5CF19275EAA7200F920A2 /* Education */ = {
 			isa = PBXGroup;
 			children = (
+				20CD9E45276DD0F80015811F /* EducationDelete.swift */,
 				20C5CF21275EAB3B00F920A2 /* EducationView.swift */,
 				203E7E4F275F359F00684CE5 /* EducationAdd.swift */,
 				203E7E51275F35A900684CE5 /* EducationEdit.swift */,
-				203E7E53275F35B600684CE5 /* EducationDelete.swift */,
 			);
 			path = Education;
 			sourceTree = "<group>";
@@ -365,7 +363,6 @@
 				20C5CF1F275EAB3100F920A2 /* PositionView.swift */,
 				203E7E49275F358300684CE5 /* PositionWorkAdd.swift */,
 				203E7E4B275F358C00684CE5 /* PositionWorkEdit.swift */,
-				203E7E4D275F359500684CE5 /* PositionWorkDelete.swift */,
 			);
 			path = PositionWork;
 			sourceTree = "<group>";
@@ -504,10 +501,10 @@
 				20609841275BF01B00B818DC /* WorkerModel.swift in Sources */,
 				2056CD83275F99E900C0012E /* TypesOfInventoryModel.swift in Sources */,
 				20C5CF0C275E9CC500F920A2 /* BonusProgramView.swift in Sources */,
-				203E7E4E275F359500684CE5 /* PositionWorkDelete.swift in Sources */,
 				2056CD8527606C0E00C0012E /* TypesInventoryAdd.swift in Sources */,
 				20C5CEFE275E74D500F920A2 /* WorkerDelete.swift in Sources */,
 				20C5CF10275E9CE400F920A2 /* BonusProgrammEdit.swift in Sources */,
+				20CD9E46276DD0F80015811F /* EducationDelete.swift in Sources */,
 				20609828275B6B3500B818DC /* UserClubsView.swift in Sources */,
 				203E7E4A275F358300684CE5 /* PositionWorkAdd.swift in Sources */,
 				20609843275BF02500B818DC /* ClientModel.swift in Sources */,
@@ -548,7 +545,6 @@
 				2056CD8927606C2200C0012E /* TypesInventoryDelete.swift in Sources */,
 				20609883275BF88100B818DC /* ClientEdit.swift in Sources */,
 				2056CD8F27606EC200C0012E /* TypesOfTraning.swift in Sources */,
-				203E7E54275F35B600684CE5 /* EducationDelete.swift in Sources */,
 				203E7E50275F359F00684CE5 /* EducationAdd.swift in Sources */,
 				2056CD9F2760CD3900C0012E /* Fabricator.swift in Sources */,
 				2060983B275BEF3800B818DC /* UserClubDelete.swift in Sources */,

@@ -26,6 +26,8 @@ struct EducationView: View {
                 Text("Учреждение: \(educations.institution)")
                 Divider()
                 Text("Дата окончания: \(educations.date_ofissue)")
+                
+                
             }
             Divider()
         }
